@@ -3,7 +3,13 @@ import React, {useState} from "react";
 function Vinyl({allDataForVinyls}){
     const {name, image, artist, price} = allDataForVinyls
 
+    const [isFrontCover, setIsFrontCover] = useState(true)
+
     const [inCart, setInCart] = useState(false)
+
+    function handleVinylCoverClick(){
+        setIsFrontCover((isFrontCover) => !isFrontCover)
+    }
 
     function handleInCartClick(){
         setInCart((inCart) => !inCart)
@@ -18,7 +24,11 @@ function Vinyl({allDataForVinyls}){
 
                 <h3>{artist}</h3>
 
-                <img src={image.frontCover} alt="vinyl-covers"/>
+                <img
+                onClick={handleVinylCoverClick}
+                src={isFrontCover ? image.frontCover : image.backCover}
+                alt=""
+                />
 
                 <h3>{price}</h3>
 
