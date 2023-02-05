@@ -1,18 +1,19 @@
 import React from "react";
 
-function Vinyl(){
+function Vinyl({allDataForVinyls}){
+    const {name, image, artist, price} = allDataForVinyls
     return(
         <>
         <div>
             <span>
-                <h1>{}</h1>
+                <h1>{name}</h1>
                 <hr/>
 
-                <h3>{}</h3>
+                <h3>{artist}</h3>
 
-                <img src={} alt={}/>
+                <img src={image.frontCover} alt="vinyl-covers"/>
 
-                <h3>{}</h3>
+                <h3>{price}</h3>
 
                 <button>Buy Me!</button>
             </span>
