@@ -1,7 +1,9 @@
 import React, {useEffect, useState} from "react";
+import Vinyl from "./Vinyl";
 
 function VinylList(){
     const[vinylData, setVinylData] = useState([])
+
 
     useEffect(() => {
         fetch('http://localhost:3001/vinyls')
@@ -9,9 +11,16 @@ function VinylList(){
         .then((data) => setVinylData(data))
     }, [])
 
-    
+
     return(
-        <h1>VinylList Test</h1>
+        <>
+        {vinylData.map((vinyl) => (
+            <Vinyl
+            key={vinyl.id}
+            allDataForVinyls={vinyl}
+            />
+        ))}
+        </>
     )
 }
 
