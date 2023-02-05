@@ -30,10 +30,11 @@ function Vinyl({allDataForVinyls}){
                 alt=""
                 />
 
-                <h3>{price}</h3>
+                <h3>${price}</h3>
 
                 <button onClick={handleInCartClick}>
-                    {inCart ? 'See you soon! 🎧' : 'Buy Me!'}
+                    {allDataForVinyls.comingSoon ? "COMING SOON" :
+                    inCart ? 'See you soon! 🎧' : 'Buy Me!'}
                 </button>
             </span>
         </div>
