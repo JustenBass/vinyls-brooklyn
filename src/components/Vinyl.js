@@ -1,7 +1,14 @@
-import React from "react";
+import React, {useState} from "react";
 
 function Vinyl({allDataForVinyls}){
     const {name, image, artist, price} = allDataForVinyls
+
+    const [inCart, setInCart] = useState(false)
+
+    function handleInCartClick(){
+        setInCart((inCart) => !inCart)
+    }
+
     return(
         <>
         <div>
@@ -15,7 +22,9 @@ function Vinyl({allDataForVinyls}){
 
                 <h3>{price}</h3>
 
-                <button>Buy Me!</button>
+                <button onClick={handleInCartClick}>
+                    {inCart ? 'See you soon! 🎧' : 'Buy Me!'}
+                </button>
             </span>
         </div>
         </>
