@@ -27,7 +27,7 @@ function Vinyl({allDataForVinyls}){
                 <img
                 onClick={handleVinylCoverClick}
                 src={isFrontCover ? image.frontCover : image.backCover}
-                alt=""
+                alt="covers"
                 />
 
                 <h3>${price}</h3>
