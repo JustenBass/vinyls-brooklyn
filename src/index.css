@@ -22,3 +22,17 @@ code {
   border-color: black;
   box-shadow: 10px 5px 5px pink;
 }
+
+.about-header{
+  margin: auto;
+  margin-left: 36.5%;
+  width: 28.5%;
+  background-color: black;
+  color: white;
+
+}
+
+.about-text-area{
+  width: 50%;
+  margin-left: 26.5%;
+}

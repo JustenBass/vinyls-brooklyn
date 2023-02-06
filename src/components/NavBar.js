@@ -34,7 +34,7 @@ function NavBar(){
                 background: 'pink'
             }}
             >
-                Vinyls
+                Vinyls For Sale & Vinyls To Sell
             </NavLink>
 
             <NavLink

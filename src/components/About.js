@@ -6,12 +6,12 @@ function About(){
         <div className="logo">
             <h1>BROOKLYN VINYLS</h1>
         </div>
-        
-        <div>
+
+        <div className="about-header">
             <h1>About Us:</h1>
         </div>
 
-        <div>
+        <div className="about-text-area">
             <center>
                 <article>
                     <small>
