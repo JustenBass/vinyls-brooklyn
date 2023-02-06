@@ -47,3 +47,9 @@ code {
   margin: 2rem 1rem;
   margin-left: 8%;
 }
+
+.vinly-image-front{
+  width: 280px;
+  height: 200px;
+  margin: 0 auto
+}

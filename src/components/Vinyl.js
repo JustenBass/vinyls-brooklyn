@@ -25,6 +25,7 @@ function Vinyl({vinylData}){
                 <h3>{artist}</h3>
 
                 <img
+                className="vinly-image-front"
                 onClick={handleVinylCoverClick}
                 src={isFrontCover ? image.frontCover : image.backCover}
                 alt="covers"
