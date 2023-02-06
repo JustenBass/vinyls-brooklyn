@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 
-function Vinyl({allDataForVinyls}){
-    const {name, image, artist, price} = allDataForVinyls
+function Vinyl({vinylData}){
+    const {name, image, artist, price} = vinylData
 
     const [isFrontCover, setIsFrontCover] = useState(true)
 
@@ -33,7 +33,7 @@ function Vinyl({allDataForVinyls}){
                 <h3>${price}</h3>
 
                 <button onClick={handleInCartClick}>
-                    {allDataForVinyls.comingSoon ? "COMING SOON" :
+                    {vinylData.comingSoon ? "COMING SOON" :
                     inCart ? 'See you soon! 🎧' : 'Buy Me!'}
                 </button>
             </span>

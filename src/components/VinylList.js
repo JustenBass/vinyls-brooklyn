@@ -1,23 +1,13 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import Vinyl from "./Vinyl";
 
-function VinylList(){
-    const[vinylData, setVinylData] = useState([])
-
-
-    useEffect(() => {
-        fetch('http://localhost:3001/vinyls')
-        .then((r) => r.json())
-        .then((data) => setVinylData(data))
-    }, [])
-
-
+function VinylList({vinylData}){
     return(
         <>
-        {vinylData.map((vinyl) => (
+         {vinylData.map((vinyl) => (
             <Vinyl
             key={vinyl.id}
-            allDataForVinyls={vinyl}
+            vinylData={vinyl}
             />
         ))}
         </>
