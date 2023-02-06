@@ -1,4 +1,5 @@
 import React from 'react';
+import { Route, Switch } from 'react-router-dom';
 import NavBar from './NavBar';
 import VinylList from './VinylList';
 import CommentForm from './CommentForm';
@@ -9,11 +10,19 @@ function App() {
   return (
     <div className="App">
      <NavBar />
-     <VinylList />
+    <Switch>
+      <Route exact path="/vinyls">
+        <VinylList />
+      </Route>
 
-     <CommentForm />
+      <Route exact path="/comments">
+        <CommentForm />
+      </Route>
 
-     <About />
+      <Route exact path="/">
+        <About />
+      </Route>
+    </Switch>
     </div>
   );
 }
