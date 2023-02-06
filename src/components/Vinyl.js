@@ -17,7 +17,7 @@ function Vinyl({vinylData}){
 
     return(
         <>
-        <div>
+        <div className="vinyl-card">
             <span>
                 <h1>{name}</h1>
                 <hr/>
