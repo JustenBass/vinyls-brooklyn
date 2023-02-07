@@ -35,7 +35,7 @@ function AddForm({handleAddVinyl}){
 
     return(
         <div>
-             <form className="NewItem" onSubmit={handleSubmit}>
+             <form onSubmit={handleSubmit}>
       <label>
         Name:
         <input

@@ -63,7 +63,8 @@
     {
       "id": 6,
       "name": "Happier Than Ever",
-      "image": {
+      "image":
+      {
         "frontCover": "https://m.media-amazon.com/images/I/41ZHn-IPeOL._SY1000_.jpg",
         "backCover": "https://m.media-amazon.com/images/I/51paJNVWrnL.jpg"
       },
@@ -71,54 +72,6 @@
       "price": 22,
       "comingSoon": false,
       "soldOut": false
-    },
-    {
-      "name": "Chow Chow",
-      "artist": "",
-      "image": "",
-      "price": "",
-      "soldOut": "",
-      "id": 7
-    },
-    {
-      "name": "",
-      "artist": "",
-      "image": "",
-      "price": "",
-      "soldOut": "",
-      "id": 8
-    },
-    {
-      "name": "",
-      "artist": "",
-      "image": "",
-      "price": "",
-      "soldOut": "",
-      "id": 9
-    },
-    {
-      "name": "",
-      "artist": "",
-      "image": "",
-      "price": "",
-      "soldOut": "",
-      "id": 10
-    },
-    {
-      "name": "",
-      "artist": "",
-      "image": "",
-      "price": "",
-      "soldOut": "",
-      "id": 11
-    },
-    {
-      "name": "",
-      "artist": "",
-      "image": "",
-      "price": "",
-      "soldOut": "",
-      "id": 12
     }
   ]
 }

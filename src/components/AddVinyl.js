@@ -3,14 +3,11 @@ import AddForm from "./AddForm";
 import Vinyl from "./Vinyl";
 
 function AddVinyl({vinylData, handleAddVinyl}){
-    let onlyUsedVinylsToDisplay = vinylData.slice(6, vinylData.length)
+    let onlyUsedVinylsToDisplay =
+    vinylData.slice(6, vinylData.length)
 
     return(
         <div>
-            <div className="logo">
-            <h1>Sell and Buy Vinyls</h1>
-        </div>
-
             <AddForm
             handleAddVinyl={handleAddVinyl}
             />
@@ -20,7 +17,7 @@ function AddVinyl({vinylData, handleAddVinyl}){
             key={vinyl.id}
             vinylData={vinyl}
             />
-        ))}
+            ))}
         </div>
     )
 }

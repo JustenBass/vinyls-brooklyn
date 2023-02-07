@@ -24,7 +24,6 @@ code {
 }
 
 .about-header{
-  margin: auto;
   margin-left: 36.5%;
   width: 28.5%;
   background-color: black;
@@ -52,4 +51,9 @@ code {
   width: 280px;
   height: 200px;
   margin: 0 auto
+}
+
+.add-form-div{
+  width: 100%;
+  bottom: -55px;
 }
