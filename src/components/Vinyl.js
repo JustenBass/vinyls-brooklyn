@@ -27,7 +27,7 @@ function Vinyl({vinylData}){
                 <img
                 className="vinly-image-front"
                 onClick={handleVinylCoverClick}
-                src={image.frontCover}
+                src={isFrontCover ? image.frontCover : image.backCover}
                 alt="covers"
                 />
 

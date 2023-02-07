@@ -73,42 +73,12 @@
       "soldOut": false
     },
     {
-      "name": "",
-      "image": "https://m.media-amazon.com/images/I/81zVIwIOFAL._SX466_.jpg",
-      "artist": "",
-      "soldOut": "",
-      "id": 7
-    },
-    {
-      "name": "",
-      "image": "https://m.media-amazon.com/images/I/81zVIwIOFAL._SX466_.jpg",
-      "artist": "",
-      "soldOut": "",
-      "id": 8
-    },
-    {
-      "name": "",
-      "artist": "",
-      "image": "12",
-      "price": "",
-      "soldOut": "",
-      "id": 9
-    },
-    {
-      "name": "",
-      "artist": "",
-      "image": "12",
-      "price": "",
-      "soldOut": "",
-      "id": 10
-    },
-    {
-      "name": "",
+      "name": "Chow Chow",
       "artist": "",
       "image": "",
-      "price": "12",
+      "price": "",
       "soldOut": "",
-      "id": 11
+      "id": 7
     }
   ]
 }

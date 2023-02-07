@@ -3,6 +3,7 @@ import React, {useState} from "react";
 
 function AddForm({handleAddVinyl}){
 
+
     const[name, setName] = useState("")
     const [artist, setArtist] = useState("")
     const [image, setImage] = useState("")
@@ -18,6 +19,7 @@ function AddForm({handleAddVinyl}){
         price: price,
         soldOut: soldOut
     }
+    console.log(newItemData)
       fetch(" http://localhost:3001/vinyls", {
         method: 'POST',
         headers: {
@@ -59,7 +61,7 @@ function AddForm({handleAddVinyl}){
         <input
           type="text"
           name="image"
-          src={image}
+          value={image}
           onChange={(e) => setImage(e.target.value)}
         />
       </label>
