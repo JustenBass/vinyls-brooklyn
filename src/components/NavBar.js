@@ -34,7 +34,7 @@ function NavBar(){
                 background: 'pink'
             }}
             >
-                Vinyls For Sale & Vinyls To Sell
+                Vinyls For Sale
             </NavLink>
 
             <NavLink
@@ -45,7 +45,7 @@ function NavBar(){
                 background: 'pink'
             }}
             >
-                Comments
+                Sell Your Vinyls
             </NavLink>
         </div>
     )

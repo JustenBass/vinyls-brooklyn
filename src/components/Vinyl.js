@@ -34,7 +34,7 @@ function Vinyl({vinylData}){
                 <h3>${price}</h3>
 
                 <button onClick={handleInCartClick}>
-                    {vinylData.comingSoon ? "COMING SOON" :
+                    {vinylData.comingSoon ? "COMING SOON" : vinylData.soldOut ? "Sold Out" : 
                     inCart ? 'See you soon! 🎧' : 'Buy Me!'}
                 </button>
             </span>
