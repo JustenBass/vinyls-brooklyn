@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { Route, Switch } from 'react-router-dom';
 import NavBar from './NavBar';
 import VinylList from './VinylList';
-import CommentForm from './CommentForm';
+import AddVinylForm from './AddVinylForm'
 import About from './About';
 import './App.css';
 
@@ -26,8 +26,8 @@ function App() {
         />
       </Route>
 
-      <Route exact path="/comments">
-        <CommentForm />
+      <Route exact path="/add-vinyl">
+        <AddVinylForm />
       </Route>
 
       <Route exact path="/">

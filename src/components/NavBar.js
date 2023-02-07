@@ -38,7 +38,7 @@ function NavBar(){
             </NavLink>
 
             <NavLink
-            to="/comments"
+            to="/add-vinyl"
             exact
             style={linkStyling}
             activeStyle={{
