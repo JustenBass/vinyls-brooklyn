@@ -36,6 +36,12 @@ code {
   margin-left: 26.5%;
 }
 
+.underline{
+  height: 10px;
+  background-color: pink;
+  border: solid 0px;
+}
+
 .vinyl-card{
   text-align: center;
   border: black solid 1px;
@@ -57,5 +63,20 @@ code {
   background-color: black;
   color: white;
   height: 50px;
+  width: 100px;
+}
+
+.add-form-label{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-bottom: 2px solid pink;
+}
+
+.button-add-form{
+  background-color: black;
+  color: white;
+  height: 20px;
   width: 100px;
 }

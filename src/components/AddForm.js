@@ -36,8 +36,10 @@ function AddForm({handleAddVinyl}){
     return(
         <div>
              <form onSubmit={handleSubmit}>
-      <label>
-        Name:
+      <label
+      className="add-form-label"
+      >
+        <b>Name:</b>
         <input
           type="text"
           name="name"
@@ -46,8 +48,10 @@ function AddForm({handleAddVinyl}){
         />
       </label>
 
-      <label>
-        Artist:
+      <label
+      className="add-form-label"
+      >
+        <b>Artist:</b>
         <input
           type="text"
           name="artist"
@@ -56,8 +60,10 @@ function AddForm({handleAddVinyl}){
         />
       </label>
 
-      <label>
-        Cover:
+      <label
+      className="add-form-label"
+      >
+        <b>Cover:</b>
         <input
           type="text"
           name="image"
@@ -66,8 +72,10 @@ function AddForm({handleAddVinyl}){
         />
       </label>
 
-      <label>
-        Price:
+      <label
+      className="add-form-label"
+      >
+        <b>Price:</b>
         <input
           type="text"
           name="price"
@@ -76,8 +84,10 @@ function AddForm({handleAddVinyl}){
         />
       </label>
 
-      <label>
-        Sold Out
+      <label
+      className="add-form-label"
+      >
+        <b>Sold Out</b>
         <input
           type="text"
           name="soldOut"
@@ -86,7 +96,12 @@ function AddForm({handleAddVinyl}){
         />
       </label>
 
-                <button type="submit">Click To Sell</button>
+                <button
+                type="submit"
+                className="button-add-form"
+                >
+                  Click To Sell
+                  </button>
             </form>
 
             <div>

@@ -20,7 +20,7 @@ function Vinyl({vinylData}){
         <div className="vinyl-card">
             <span>
                 <h1>{name}</h1>
-                <hr/>
+                <hr className="underline"/>
 
                 <h3>{artist}</h3>
 

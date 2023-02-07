@@ -11,7 +11,6 @@ function VinylList({vinylData}){
         setLessThanTwenty((lessThanTwenty) => !lessThanTwenty)
     }
 
-
     return(
         <>
         <div>
