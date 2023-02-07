@@ -66,16 +66,22 @@ code {
   width: 100px;
 }
 
+.underline-add-vinyl-text{
+  height:  2px;
+  width: 75%;
+  background-color: pink;
+  border: solid 0px;
+}
+
 .add-form-label{
   width: 50%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border-top: 2px solid pink;
-  border-bottom: 2px solid pink;
 }
 
-.button-add-form{
+
+.add-form-button{
   background-color: black;
   color: white;
   height: 20px;

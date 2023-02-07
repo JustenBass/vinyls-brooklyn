@@ -36,7 +36,7 @@ function AddForm({handleAddVinyl, vinylData}){
 
 
     return(
-        <div>
+        <>
              <form onSubmit={handleSubmit}>
       <label
       className="add-form-label"
@@ -106,7 +106,7 @@ function AddForm({handleAddVinyl, vinylData}){
 
                 <button
                 type="submit"
-                className="button-add-form"
+                className="add-form-button"
                 >
                   Click To Sell
                   </button>
@@ -115,7 +115,7 @@ function AddForm({handleAddVinyl, vinylData}){
             <div>
 
             </div>
-        </div>
+        </>
     )
 }
 
