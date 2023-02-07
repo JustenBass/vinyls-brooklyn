@@ -53,7 +53,9 @@ code {
   margin: 0 auto
 }
 
-.add-form-div{
-  width: 100%;
-  bottom: -55px;
+.button-black{
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 100px;
 }
