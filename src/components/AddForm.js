@@ -9,6 +9,7 @@ function AddForm({handleAddVinyl, vinylData}){
     const [frontCover, setFrontCover] = useState("")
     const [backCover, setBackCover] = useState("")
     const [price, setPrice] = useState("")
+    const [soldOut, setSoldOut] = useState("")
 
 
     function handleSubmit(e){

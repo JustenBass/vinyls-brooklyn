@@ -74,6 +74,7 @@
       "frontCover": "https://m.media-amazon.com/images/I/91Ng2iiPeXL._SX522_.jpg",
       "backCover": "https://m.media-amazon.com/images/I/8104ss9V1-L._SX522_.jpg",
       "price": "80",
+      "soldOut": true,
       "id": 8
     }
   ]

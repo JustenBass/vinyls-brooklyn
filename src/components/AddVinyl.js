@@ -8,6 +8,9 @@ function AddVinyl({vinylData, handleAddVinyl}){
 
     return(
         <div>
+             <div className="about-header">
+            <h1>Sell Your Old Treasures For Others To Buy!</h1>
+        </div>
             <AddForm
             handleAddVinyl={handleAddVinyl}
             vinylData={vinylData}

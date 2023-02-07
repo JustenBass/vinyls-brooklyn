@@ -13,12 +13,11 @@ function VinylList({vinylData}){
 
     return(
         <>
-        <div>
-        <button
-        className="button-black"
+        <div
+        className="about-header"
         onClick={handleFilterLessThanClick}
-        >Vinyls Less Than $20
-        </button>
+        >
+            <h1>Click To See Vinyls under $20</h1>
         </div>
 
         {onlyNewVinylsToDispay.map((vinyl) => (
