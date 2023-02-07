@@ -7,7 +7,9 @@ function AddVinyl({vinylData, handleAddVinyl}){
 
     return(
         <div>
-            <h1>Sell Your Vinyls</h1>
+            <div className="logo">
+            <h1>Sell and Buy Vinyls</h1>
+        </div>
 
             <AddForm
             handleAddVinyl={handleAddVinyl}

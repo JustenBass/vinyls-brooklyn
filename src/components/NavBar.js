@@ -23,7 +23,7 @@ function NavBar(){
                 background: 'pink'
             }}
             >
-                About
+                About Brooklyn Vinyls
             </NavLink>
 
             <NavLink
@@ -34,7 +34,7 @@ function NavBar(){
                 background: 'pink'
             }}
             >
-                Vinyls For Sale
+                New Vinyls For Sale
             </NavLink>
 
             <NavLink
@@ -45,7 +45,7 @@ function NavBar(){
                 background: 'pink'
             }}
             >
-                Sell Your Vinyls
+                Sell And Buy Used Vinyls
             </NavLink>
         </div>
     )
