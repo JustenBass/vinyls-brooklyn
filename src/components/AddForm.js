@@ -1,23 +1,24 @@
 import React, {useState} from "react";
 
 
-function AddForm({handleAddVinyl}){
+function AddForm({handleAddVinyl, vinylData}){
 
 
     const[name, setName] = useState("")
     const [artist, setArtist] = useState("")
-    const [image, setImage] = useState("")
+    const [frontCover, setFrontCover] = useState("")
+    const [backCover, setBackCover] = useState("")
     const [price, setPrice] = useState("")
-    const [soldOut, setSoldOut] = useState("")
+
 
     function handleSubmit(e){
         e.preventDefault()
         const newItemData ={
         name: name,
         artist: artist,
-        image: image,
+        frontCover: frontCover,
+        backCover: backCover,
         price: price,
-        soldOut: soldOut
     }
     console.log(newItemData)
       fetch(" http://localhost:3001/vinyls", {
@@ -43,6 +44,7 @@ function AddForm({handleAddVinyl}){
         <input
           type="text"
           name="name"
+          placeholder="Vinyl Name..."
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
@@ -55,6 +57,7 @@ function AddForm({handleAddVinyl}){
         <input
           type="text"
           name="artist"
+          placeholder="Artist Name..."
           value={artist}
           onChange={(e) => setArtist(e.target.value)}
         />
@@ -63,12 +66,26 @@ function AddForm({handleAddVinyl}){
       <label
       className="add-form-label"
       >
-        <b>Cover:</b>
+        <b>Front-Cover:</b>
         <input
           type="text"
-          name="image"
-          value={image}
-          onChange={(e) => setImage(e.target.value)}
+          name="frontCover"
+          placeholder="JPG Link..."
+          value={frontCover}
+          onChange={(e) => setFrontCover(e.target.value)}
+        />
+      </label>
+
+      <label
+      className="add-form-label"
+      >
+        <b>Back-Cover:</b>
+        <input
+          type="text"
+          name="backCover"
+          placeholder="Insert JPG Link..."
+          value={backCover}
+          onChange={(e) => setBackCover(e.target.value)}
         />
       </label>
 
@@ -79,22 +96,12 @@ function AddForm({handleAddVinyl}){
         <input
           type="text"
           name="price"
+          placeholder="Set Your Price..."
           value={price}
           onChange={(e) => setPrice(e.target.value)}
         />
       </label>
 
-      <label
-      className="add-form-label"
-      >
-        <b>Sold Out</b>
-        <input
-          type="text"
-          name="soldOut"
-          value={soldOut}
-          onChange={(e) => setSoldOut(e.target.value)}
-        />
-      </label>
 
                 <button
                 type="submit"

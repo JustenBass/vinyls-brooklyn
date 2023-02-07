@@ -10,6 +10,7 @@ function AddVinyl({vinylData, handleAddVinyl}){
         <div>
             <AddForm
             handleAddVinyl={handleAddVinyl}
+            vinylData={vinylData}
             />
 
             {onlyUsedVinylsToDisplay.map((vinyl) => (

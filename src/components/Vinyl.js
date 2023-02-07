@@ -1,7 +1,8 @@
 import React, {useState} from "react";
 
 function Vinyl({vinylData}){
-    const {name, image, artist, price} = vinylData
+    const {name, frontCover, backCover, artist, price} = vinylData
+
 
     const [isFrontCover, setIsFrontCover] = useState(true)
 
@@ -27,7 +28,7 @@ function Vinyl({vinylData}){
                 <img
                 className="vinly-image-front"
                 onClick={handleVinylCoverClick}
-                src={isFrontCover ? image.frontCover : image.backCover}
+                src={isFrontCover ? frontCover : backCover}
                 alt="covers"
                 />
 
@@ -38,7 +39,7 @@ function Vinyl({vinylData}){
                 onClick={handleInCartClick}
                 >
                 {vinylData.comingSoon ? "COMING SOON" :
-                vinylData.soldOut ? "Sold Out" :
+                vinylData.soldOut ? "SOLD OUT" :
                 inCart ? 'See you soon! 🎧' : 'Buy Me!'}
                 </button>
             </span>

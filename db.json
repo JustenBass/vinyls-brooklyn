@@ -3,10 +3,8 @@
     {
       "id": 1,
       "name": "Endless Summer",
-      "image": {
-        "frontCover": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS5z5A1z1K9UsQvfBDd-C9gs065H-3Tz0-5ItecgefhrVtsdKexj7FNalu6RonxmX_0uNmGH0B1Ny5PsZYr9PZF9At-4an0rgtAsz690YBpNxBZDRJyqJ-xGA",
-        "backCover": "https://m.media-amazon.com/images/I/519DpQeHU5L._SL1500_.jpg"
-      },
+      "frontCover": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS5z5A1z1K9UsQvfBDd-C9gs065H-3Tz0-5ItecgefhrVtsdKexj7FNalu6RonxmX_0uNmGH0B1Ny5PsZYr9PZF9At-4an0rgtAsz690YBpNxBZDRJyqJ-xGA",
+      "backCover": "https://m.media-amazon.com/images/I/519DpQeHU5L._SL1500_.jpg",
       "artist": "Miley Cyrus",
       "price": 40,
       "comingSoon": true,
@@ -15,10 +13,8 @@
     {
       "id": 2,
       "name": "Thank You, Next",
-      "image": {
-        "frontCover": "https://m.media-amazon.com/images/I/71V-x8ozIZL._UF1000,1000_QL80_.jpg",
-        "backCover": "https://m.media-amazon.com/images/I/91eBXBsoA4S._SL1500_.jpg"
-      },
+      "frontCover": "https://m.media-amazon.com/images/I/71V-x8ozIZL._UF1000,1000_QL80_.jpg",
+      "backCover": "https://m.media-amazon.com/images/I/91eBXBsoA4S._SL1500_.jpg",
       "artist": "Ariana Grande",
       "price": 15,
       "comingSoon": false,
@@ -27,10 +23,8 @@
     {
       "id": 3,
       "name": "1989",
-      "image": {
-        "frontCover": "https://i.ebayimg.com/images/g/l8YAAOSwkvBhz-Ar/s-l500.jpg",
-        "backCover": "https://m.media-amazon.com/images/I/61+TFRitUqL.jpg"
-      },
+      "frontCover": "https://i.ebayimg.com/images/g/l8YAAOSwkvBhz-Ar/s-l500.jpg",
+      "backCover": "https://m.media-amazon.com/images/I/61+TFRitUqL.jpg",
       "artist": "Taylor Swift",
       "price": 30,
       "comingSoon": false,
@@ -39,10 +33,8 @@
     {
       "id": 4,
       "name": "30",
-      "image": {
-        "frontCover": "https://i.ebayimg.com/images/g/CAkAAOSwG8BhaMGo/s-l500.jpg",
-        "backCover": "https://m.media-amazon.com/images/I/61tQmRICpjL._SL1500_.jpg"
-      },
+      "frontCover": "https://i.ebayimg.com/images/g/CAkAAOSwG8BhaMGo/s-l500.jpg",
+      "backCover": "https://m.media-amazon.com/images/I/61tQmRICpjL._SL1500_.jpg",
       "artist": "Adele",
       "price": 18,
       "comingSoon": false,
@@ -51,10 +43,8 @@
     {
       "id": 5,
       "name": "Sour",
-      "image": {
-        "frontCover": "https://m.media-amazon.com/images/I/417PH42RV+L.jpg",
-        "backCover": "https://m.media-amazon.com/images/I/61VWWRDpSqS._SL1200_.jpg"
-      },
+      "frontCover": "https://m.media-amazon.com/images/I/417PH42RV+L.jpg",
+      "backCover": "https://m.media-amazon.com/images/I/61VWWRDpSqS._SL1200_.jpg",
       "artist": "Olivia Rodrigo",
       "price": 19,
       "comingSoon": false,
@@ -63,15 +53,28 @@
     {
       "id": 6,
       "name": "Happier Than Ever",
-      "image":
-      {
-        "frontCover": "https://m.media-amazon.com/images/I/41ZHn-IPeOL._SY1000_.jpg",
-        "backCover": "https://m.media-amazon.com/images/I/51paJNVWrnL.jpg"
-      },
+      "frontCover": "https://m.media-amazon.com/images/I/41ZHn-IPeOL._SY1000_.jpg",
+      "backCover": "https://m.media-amazon.com/images/I/51paJNVWrnL.jpg",
       "artist": "Billie Eilish",
       "price": 22,
       "comingSoon": false,
       "soldOut": false
+    },
+    {
+      "name": "Rumors ",
+      "artist": "Fleetwood Mac",
+      "frontCover": "https://m.media-amazon.com/images/I/71cXb13wEgL._SX522_.jpg",
+      "backCover": "https://m.media-amazon.com/images/I/81YLyyhRIFL._SX522_.jpg",
+      "price": "65",
+      "id": 7
+    },
+    {
+      "name": "Greatest Hits",
+      "artist": "Queen",
+      "frontCover": "https://m.media-amazon.com/images/I/91Ng2iiPeXL._SX522_.jpg",
+      "backCover": "https://m.media-amazon.com/images/I/8104ss9V1-L._SX522_.jpg",
+      "price": "80",
+      "id": 8
     }
   ]
 }
