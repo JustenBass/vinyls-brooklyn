@@ -27,14 +27,14 @@ function Vinyl({vinylData}){
                 <img
                 className="vinly-image-front"
                 onClick={handleVinylCoverClick}
-                src={isFrontCover ? image.frontCover : image.backCover}
+                src={image.frontCover}
                 alt="covers"
                 />
 
                 <h3>${price}</h3>
 
                 <button onClick={handleInCartClick}>
-                    {vinylData.comingSoon ? "COMING SOON" : vinylData.soldOut ? "Sold Out" : 
+                    {vinylData.comingSoon ? "COMING SOON" : vinylData.soldOut ? "Sold Out" :
                     inCart ? 'See you soon! 🎧' : 'Buy Me!'}
                 </button>
             </span>
