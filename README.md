@@ -20,5 +20,31 @@ https://youtu.be/_j3iUZ8OrxA
 
 
 
+*Credit
+📸 Miley Cyrus Image Resource:
+https://www.amazon.com/Endless-Summer-Vacation-Miley-Cyrus/dp/B0BS1SWPRQ/ref=sr_1_1?crid=2462B7OUZHIN3&keywords=miley+cyrus+vinyl&qid=1676349681&sprefix=miley+cyrus+%2Caps%2C91&sr=8-1
+
+📸 Ariana Grande Image Resource:
+https://www.amazon.com/Positions-Coke-Bottle-Clear-LP/dp/B08STV2Q2B/ref=sr_1_2?crid=1WP3652WPPHZS&keywords=ariana+grande+vinyl+record&qid=1676349727&sprefix=ariana+vinyl%2Caps%2C120&sr=8-2
+
+📸 Taylor Swift Image Resource:
+https://www.amazon.com/1989-TAYLOR-SWIFT/dp/B00PA04SD0/ref=sr_1_14?crid=1OZGZY7GWZDHA&keywords=taylor+swift+vinyl&qid=1676349792&sprefix=taylor+swift+vina%2Caps%2C98&sr=8-14
+
+📸 Adele Image Resource:
+https://www.amazon.com/30-Amazon-Exclusive-White-Vinyl/dp/B09HVTKLPQ/ref=sr_1_3?crid=3AV7U87IMA5MB&keywords=adele+vinyl&qid=1676349833&sprefix=adele+%2Caps%2C90&sr=8-3
+
+📸 Olivia Rodrigo Image Resource:
+https://www.amazon.com/SOUR-Transparent-Violet-LP-Amazon/dp/B092HJK31C/ref=sr_1_8?crid=3BTIMXP0ULK4O&keywords=olivia+rodrigo+vinyl+records+albums&qid=1676349885&sprefix=olivia+vinyl%2Caps%2C79&sr=8-8
+
+https://www.amazon.com/Sour-CD-Olivia-Rodrigo/dp/B09886DX67/ref=sr_1_1?crid=6JVWPHX2PPLU&keywords=sour+cd&qid=1676349921&sprefix=sour+cd%2Caps%2C94&sr=8-1
+
+📸 Billie Image Resource:
+https://www.amazon.com/Happier-LIMITED-Yellow-Color-Vinyl/dp/B0941FCRL9/ref=sr_1_5?crid=1JEN8PMBA1WS&keywords=billie+eilish+record&qid=1676350032&sprefix=billie+eilish+re%2Caps%2C84&sr=8-5
+
+
+
+
+
+
 
 
