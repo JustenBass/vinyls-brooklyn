@@ -45,7 +45,7 @@ function NavBar(){
                 background: 'pink'
             }}
             >
-                Sell And Buy Used Vinyls
+                POST-IT
             </NavLink>
         </div>
     )

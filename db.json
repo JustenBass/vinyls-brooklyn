@@ -4,11 +4,12 @@
       "id": 1,
       "name": "Endless Summer",
       "frontCover": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS5z5A1z1K9UsQvfBDd-C9gs065H-3Tz0-5ItecgefhrVtsdKexj7FNalu6RonxmX_0uNmGH0B1Ny5PsZYr9PZF9At-4an0rgtAsz690YBpNxBZDRJyqJ-xGA",
-      "backCover": "https://m.media-amazon.com/images/I/51zscmHUQbS._AC_SX679_.jpg",
+      "backCover": "https://m.media-amazon.com/images/I/519DpQeHU5L._SL1500_.jpg",
       "artist": "Miley Cyrus",
       "price": 40,
       "comingSoon": true,
-      "soldOut": false
+      "soldOut": false,
+      "used": false
     },
     {
       "id": 2,
@@ -18,7 +19,8 @@
       "artist": "Ariana Grande",
       "price": 15,
       "comingSoon": false,
-      "soldOut": false
+      "soldOut": false,
+      "used": false
     },
     {
       "id": 3,
@@ -28,17 +30,19 @@
       "artist": "Taylor Swift",
       "price": 30,
       "comingSoon": false,
-      "soldOut": true
+      "soldOut": true,
+      "used": false
     },
     {
       "id": 4,
       "name": "30",
       "frontCover": "https://i.ebayimg.com/images/g/CAkAAOSwG8BhaMGo/s-l500.jpg",
-      "backCover": "https://m.media-amazon.com/images/I/41KOqQ8yIpL.jpg",
+      "backCover": "https://m.media-amazon.com/images/I/91qce38n5dL._SX522_.jpg",
       "artist": "Adele",
       "price": 18,
       "comingSoon": false,
-      "soldOut": false
+      "soldOut": false,
+      "used": false
     },
     {
       "id": 5,
@@ -48,7 +52,8 @@
       "artist": "Olivia Rodrigo",
       "price": 19,
       "comingSoon": false,
-      "soldOut": false
+      "soldOut": false,
+      "used": false
     },
     {
       "id": 6,
@@ -58,24 +63,44 @@
       "artist": "Billie Eilish",
       "price": 22,
       "comingSoon": false,
-      "soldOut": false
+      "soldOut": false,
+      "used": false
     },
     {
-      "name": "Rumors ",
-      "artist": "Fleetwood Mac",
-      "frontCover": "https://m.media-amazon.com/images/I/71cXb13wEgL._SX522_.jpg",
-      "backCover": "https://m.media-amazon.com/images/I/81YLyyhRIFL._SX522_.jpg",
-      "price": "65",
+      "name": "Changes ",
+      "artist": "Justin Bieber",
+      "frontCover": "https://m.media-amazon.com/images/I/81pFmuk-AeL._SX522_.jpg",
+      "backCover": "https://m.media-amazon.com/images/I/61q4+iFN9+L._SX522_.jpg",
+      "price": "15",
+      "used": true,
       "id": 7
+    },
+    {
+      "name": "Back To Black",
+      "artist": "Amy Whinehouse ",
+      "frontCover": "https://m.media-amazon.com/images/I/616jOs2SxDL._SL1071_.jpg",
+      "backCover": "https://m.media-amazon.com/images/I/71hPYqfBqrL._SX522_.jpg",
+      "price": "16",
+      "used": true,
+      "id": 8
     },
     {
       "name": "Greatest Hits",
       "artist": "Queen",
-      "frontCover": "https://m.media-amazon.com/images/I/91Ng2iiPeXL._SX522_.jpg",
-      "backCover": "https://m.media-amazon.com/images/I/8104ss9V1-L._SX522_.jpg",
+      "frontCover": "https://m.media-amazon.com/images/I/91Ng2iiPeXL._SL1500_.jpg",
+      "backCover": "https://m.media-amazon.com/images/I/8104ss9V1-L._SL1500_.jpg",
       "price": "80",
-      "soldOut": true,
-      "id": 8
+      "used": true,
+      "id": 9
+    },
+    {
+      "name": "Abbey Road ",
+      "artist": "The Beatles",
+      "frontCover": "https://m.media-amazon.com/images/I/A1ppzg2gLwL._AC_SX679_.jpg",
+      "backCover": "https://m.media-amazon.com/images/I/A17acSwCpIL._AC_SX679_.jpg",
+      "price": "100",
+      "used": true,
+      "id": 10
     }
   ]
 }

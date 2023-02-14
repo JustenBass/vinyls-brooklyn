@@ -1,21 +1,22 @@
 import React from "react";
 
 function About(){
+
     return(
         <>
         <div className="logo">
             <h1>BROOKLYN VINYLS</h1>
         </div>
 
-        <div className="about-header">
-            <h1>About Us:</h1>
-        </div>
+            <div className="about-header">
+                <h1>About Us:</h1>
+            </div>
 
-        <div className="about-text-area">
-            <center>
-                <article>
-                    <small>
-                        <b>
+                <div className="about-text-area">
+                    <center>
+                        <article>
+                            <small>
+                                <b>
                         Brooklyn Vinyls doors opened Febuary 2020 in the electic
                         nieghborhood of Bushwick located in Brooklyn, NY. With only
                         a month before times of uncertanity, it was because of your love and
@@ -26,12 +27,12 @@ function About(){
                         come into our store. Not only are you surrounded by endless genres of vinyls,
                         but you are also surrounded by a community who also have a passion for music
                         just like you!
-                        </b>
-                    </small>
-                </article>
-            </center>
-        </div>
-        </>
+                                </b>
+                            </small>
+                        </article>
+                    </center>
+                </div>
+         </>
     )
 }
 

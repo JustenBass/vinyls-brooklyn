@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import { Route, Switch } from 'react-router-dom';
 import NavBar from './NavBar';
-import VinylList from './VinylList';
-import AddVinyl from './AddVinyl';
+import VinylPage from './VinylPage';
+import AddUsed from './AddUsed';
 import About from './About';
 import './App.css';
 
@@ -25,14 +25,13 @@ function App() {
      <NavBar />
     <Switch>
       <Route exact path="/vinyls">
-        <VinylList
+        <VinylPage
         vinylData={vinylData}
-
         />
       </Route>
 
       <Route exact path="/add-vinyl">
-        <AddVinyl
+        <AddUsed
         vinylData={vinylData}
         handleAddVinyl={handleAddVinyl}
         />

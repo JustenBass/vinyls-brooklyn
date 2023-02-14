@@ -1,12 +1,10 @@
 import React, {useState} from "react";
 
-function Vinyl({vinylData}){
+function VinylCard({vinylData}){
     const {name, frontCover, backCover, artist, price} = vinylData
-
-
     const [isFrontCover, setIsFrontCover] = useState(true)
-
     const [inCart, setInCart] = useState(false)
+
 
     function handleVinylCoverClick(){
         setIsFrontCover((isFrontCover) => !isFrontCover)
@@ -48,5 +46,4 @@ function Vinyl({vinylData}){
     )
 }
 
-
-export default Vinyl
+export default VinylCard
