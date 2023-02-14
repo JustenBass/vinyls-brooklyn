@@ -4,11 +4,11 @@ Hello, my fellow coders and viewers. The time has come after months of studies a
 
 📀 What is Brooklyn Vinyls?
 
-Brooklyn Vinyls is a vinyl store located in the heart of Bushwick, NY. We opened our doors Febuary 2020 in times of uncertainty. When the lock down was put in order we knew we had to think quickly and and create an online application to keep us up and running. After endless post on instagram, twitter, and other social platforms for our application, word about Brooklyn Vinyls got around. This helped us gain new customers that invested money into our viynls through our application. Because of their love and support of music, we still stand tall and our doors now remain open. We strongly believe music is an essential tool to help people get through the good times and bad times. We are very gratful we can provide such a tool to all the music lovers that support us.
+Brooklyn Vinyls is a vinyl store located in the heart of Bushwick, NY. We opened our doors Febuary 2020 in times of uncertainty. When the lock down was put in order we knew we had to think quickly and and create an online application to keep us up and running. After endless post on instagram, twitter, and other social platforms for our application, word about Brooklyn Vinyls got around. This helped us gain new customers that invested money in our vinyls through our application. Because of their love and support of music, we still stand tall and our doors now remain open. We strongly believe music is an essential tool to help people get through the good times and bad times. We are very gratful we can provide such a tool to all the music lovers that support us.
 
 📀 What is the goal of Brooklyn Vinyls?
 
-The initial goal of creating this application was to help us survive the lockdown of the pandemic. However, as I was creating this app I realized it's more than just about surviving. To me it became more about brining a community together. Bringing music lovers together. Music creates a strong bond between oneself and thier emotions. Why not tie that into a community where those emotions can reflect on others. It reminds us how we feel emotionally can be related to how others feel emotionally. Music teaches us how to be aware and intune not only with oneself but others as well.
+The initial goal of creating this application was to help us survive the lockdown of the pandemic. However, as I was creating this app I realized it's more than just about surviving. To me it became more about bringing a community together. Bringing music lovers together. Music creates a strong bond between oneself and their emotions. Why not tie that into a community where those emotions can reflect on others. It reminds us how we feel emotionally can be related to how others feel emotionally. Music teaches us how to be aware and intune not only with oneself but others as well.
 
 
 📀 The ideas behind the application.
@@ -20,7 +20,7 @@ https://youtu.be/_j3iUZ8OrxA
 
 
 
-*Credit
+📀 Credit
 📸 Miley Cyrus Image Resource:
 https://www.amazon.com/Endless-Summer-Vacation-Miley-Cyrus/dp/B0BS1SWPRQ/ref=sr_1_1?crid=2462B7OUZHIN3&keywords=miley+cyrus+vinyl&qid=1676349681&sprefix=miley+cyrus+%2Caps%2C91&sr=8-1
 
